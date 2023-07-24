@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Bastián",
   middleName: "",
   lastName: "Cuellar Salinas",
-  message: " Passionate about learning and leveraging technology to drive positive change and make a difference in the world. ",
+  message: " Apasionado por aprender y aprovechar la tecnología para impulsar un cambio positivo y marcar una diferencia en el mundo. ",
   icons: [
     {
       image: "fa-github",
@@ -50,12 +50,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: "Acerca de mi",
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Bastián Cuellar. I hold a degree in Computer Engineering from the Pontifical Catholic University of Valparaiso. As a lifelong learner, I am passionate about exploring and growing in the field of software engineering. I am eager to contribute to the community and make a positive impact through my work. Currently, I am focused on expanding my knowledge and skills in various programming languages and technologies. I actively engage in personal projects and open-source initiatives to further enhance my learning. I am excited to continue my journey in software engineering, continuously expanding my expertise and embracing new challenges.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Mi nombre es Bastián Cuellar. Poseo un título en Ingeniería Informática de la Pontificia Universidad Católica de Valparaíso. Como entusiasta, siento una gran pasión por explorar y crecer en el campo de la ingeniería de software. Estoy ansioso por contribuir a la comunidad y generar un impacto positivo a través de mi trabajo. En la actualidad, mi enfoque está en ampliar mis conocimientos y habilidades en diversos lenguajes de programación y tecnologías. Participó activamente en proyectos personales e iniciativas de código abierto para enriquecer mi aprendizaje. Estoy emocionado de continuar mi trayectoria en la ingeniería de software, expandiendo continuamente mi experiencia y enfrentando nuevos desafíos.",
+  resume: "https://docs.google.com/document/d/1Ie2Pi4SJZQGvwlhqyn8UYElLiidnUv4qkycVWmdgIVs/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -65,7 +65,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Proyectos recientes",
   gitHubUsername: "bastian-cuellar-s", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -98,7 +98,7 @@ const leadership = {
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: "Habilidades",
   hardSkills: [
     { name: "JavaScript", value: 80 },
     { name: "VueJs", value: 75 },
@@ -110,39 +110,39 @@ const skills = {
     { name: "HTML/CSS", value: 55 },
   ],
   softSkills: [
-    { name: "Empathy", value: 90 },
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 85 },
-    { name: "Adaptability", value: 80 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Creativity", value: 70 },
-    { name: "Organization", value: 65 },
+    { name: "Empatía", value: 90 },
+    { name: "Objectivos", value: 80 },
+    { name: "Colaborador", value: 90 },
+    { name: "Positivo", value: 85 },
+    { name: "Adaptabilidad", value: 80 },
+    { name: "Resolución de problemas", value: 75 },
+    { name: "Creatividad", value: 70 },
+    { name: "Organización", value: 65 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Mantente en contacto",
   message:
-    "I'm currently looking for full-time Software Engineering! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "Actualmente estoy buscando oportunidades de trabajo como Ingeniero de Software a tiempo completo. Si conoces alguna posición disponible, tienes preguntas o simplemente quieres saludar, por favor, no dudes en enviarme un correo electrónico a ",
   email: "bastian.cuellar.s@gmail.com",
 };
 
 const experiences = {
   show: false,
-  heading: "Experiences",
+  heading: "Experiencias",
   data: [
     {
-      role: 'Independent FullStack Developer',// Here Add Company Name
+      role: 'Desarrollador FullStack Independiente',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
-      date: '2021 – Present',
+      date: '2021 – Presente',
     },
     {
-      role: 'Consultant and IT Advisor',
+      role: 'Consultor y Asesor Ti',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'July 2020 – June 2022',
+      date: 'Julio 2020 – Junio 2022',
     },
   ]
 }
